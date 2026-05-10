@@ -1,0 +1,17 @@
+id,city_name,state_name,region,short_description,avg_daily_budget_budget,avg_daily_budget_midrange,avg_daily_budget_luxury,popularity_score,best_season,tourism_type,safety_rating,weather_type,main_image
+1,Mumbai,Maharashtra,West India,"India’s financial capital known for nightlife, Bollywood, and sea-facing attractions.",2500,6000,18000,98,November-February,Nightlife,7,Tropical,mumbai_marine_drive.jpg
+2,Pune,Maharashtra,West India,"A youthful city famous for education hubs, cafes, and nearby hill stations.",1800,4500,12000,82,October-February,Cultural,8,Tropical,pune_shaniwar_wada.jpg
+3,Lonavala,Maharashtra,West India,A scenic hill station popular for monsoon views and weekend getaways.,2000,5000,14000,88,June-September,Hill Station,8,Moderate,lonavala_tiger_point.jpg
+4,Nashik,Maharashtra,West India,A spiritual and wine tourism destination with temples and vineyards.,1700,4200,11000,76,October-March,Spiritual,8,Dry,nashik_vineyards.jpg
+5,Bengaluru,Karnataka,South India,"India’s tech hub offering gardens, nightlife, and modern attractions.",2400,6500,17000,95,October-February,Nightlife,8,Moderate,bengaluru_vidhana_soudha.jpg
+6,Mysuru,Karnataka,South India,"A royal heritage city known for palaces, culture, and Dasara celebrations.",1800,4500,13000,84,October-February,Heritage,9,Moderate,mysuru_palace.jpg
+7,Coorg,Karnataka,South India,A lush hill destination famous for coffee plantations and waterfalls.,2200,5200,15000,90,October-March,Nature,9,Cool,coorg_coffee_estates.jpg
+8,Hampi,Karnataka,South India,An ancient UNESCO heritage site filled with ruins and temples.,1600,4000,10000,86,November-February,Heritage,8,Dry,hampi_stone_chariot.jpg
+9,Panaji,Goa,West India,Goa’s capital city blending Portuguese heritage with vibrant nightlife.,2500,6500,18000,91,November-February,Beach,8,Tropical,panaji_riverfront.jpg
+10,Calangute,Goa,West India,A lively beach town known for water sports and tourist nightlife.,2600,7000,20000,94,November-February,Beach,7,Tropical,calangute_beach.jpg
+11,Vagator,Goa,West India,"A trendy coastal destination famous for cliffs, cafes, and parties.",2400,6800,19000,89,November-February,Nightlife,7,Tropical,vagator_cliffs.jpg
+12,Palolem,Goa,West India,A peaceful beach destination ideal for relaxation and kayaking.,2300,6000,17000,85,November-March,Beach,8,Tropical,palolem_beach.jpg
+13,Jaipur,Rajasthan,North India,"The Pink City is known for forts, palaces, and vibrant bazaars.",1900,4800,14000,96,October-March,Heritage,8,Dry,jaipur_hawa_mahal.jpg
+14,Udaipur,Rajasthan,North India,A romantic lake city admired for royal palaces and scenic views.,2300,6000,18000,92,October-March,Cultural,8,Dry,udaipur_city_palace.jpg
+15,Jodhpur,Rajasthan,North India,The Blue City offers majestic forts and rich Rajasthani culture.,2000,5200,15000,87,October-March,Heritage,8,Dry,jodhpur_mehrangarh_fort.jpg
+16,Jaisalmer,Rajasthan,North India,A desert city famous for sand dunes and golden sandstone forts.,2100,5500,16000,89,November-February,Adventure,7,Desert,jaisalmer_fort.jpg

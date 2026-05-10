@@ -1,0 +1,275 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum TripStatus {
+  UPCOMING
+  ONGOING
+  COMPLETED
+}
+
+enum ExpenseCategory {
+  TRANSPORT
+  STAY
+  FOOD
+  ACTIVITY
+  SHOPPING
+  OTHER
+}
+
+enum ChecklistCategory {
+  DOCUMENTS
+  CLOTHING
+  ELECTRONICS
+  MEDICAL
+  ACCESSORIES
+  OTHER
+}
+
+model User {
+  id              Int       @id @default(autoincrement())
+  fullName        String
+  email           String    @unique
+  password        String
+  phone           String?
+  city            String?
+  country         String?
+  profilePhoto    String?
+  bio             String?
+  createdAt       DateTime  @default(now())
+
+  trips           Trip[]
+  notes           Note[]
+  checklistItems  ChecklistItem[]
+  communityPosts  CommunityPost[]
+}
+
+model Trip {
+  id                Int          @id @default(autoincrement())
+  userId            Int
+  title             String
+  description       String?
+  coverImage        String?
+  startDate         DateTime
+  endDate           DateTime
+  budgetLimit       Float
+  estimatedCost     Float        @default(0)
+  budgetDelta       Float        @default(0)
+  status            TripStatus
+  isPublic          Boolean      @default(false)
+  createdAt         DateTime     @default(now())
+
+  user              User         @relation(fields: [userId], references: [id])
+
+  itineraryDays     ItineraryDay[]
+  expenses          Expense[]
+  checklistItems    ChecklistItem[]
+  notes             Note[]
+  invoices          Invoice[]
+  communityPosts    CommunityPost[]
+
+  @@index([userId])
+}
+
+model City {
+  id                         Int      @id @default(autoincrement())
+  cityName                   String
+  stateName                  String
+  region                     String
+  shortDescription           String
+  avgDailyBudgetBudget       Float
+  avgDailyBudgetMidrange     Float
+  avgDailyBudgetLuxury       Float
+  popularityScore            Int
+  bestSeason                 String
+  tourismType                String
+  safetyRating               Float
+  weatherType                String
+  mainImage                  String
+
+  activities                 Activity[]
+  stays        Stay[]
+  foodCosts    FoodCost[]
+
+  fromRoutes   Transport[] @relation("FromCity")
+  toRoutes     Transport[] @relation("ToCity")
+  itineraryDays              ItineraryDay[]
+
+  @@index([cityName])
+  @@index([stateName])
+}
+
+model Activity {
+  id                Int      @id @default(autoincrement())
+  cityId            Int
+  activityName      String
+  category          String
+  description       String
+  estimatedCost     Float
+  durationHours     Float
+  bestTime          String
+  difficultyLevel   String
+  familyFriendly    Boolean
+  indoorOrOutdoor   String
+  popularityScore   Int
+  activityImage     String
+
+  city              City     @relation(fields: [cityId], references: [id])
+
+  itineraryItems    ItineraryItem[]
+
+  @@index([cityId])
+  @@index([category])
+}
+
+model ItineraryDay {
+  id                Int       @id @default(autoincrement())
+  tripId            Int
+  cityId            Int
+  dayNumber         Int
+  date              DateTime
+  dailyBudget       Float
+
+  trip              Trip      @relation(fields: [tripId], references: [id])
+  city              City      @relation(fields: [cityId], references: [id])
+
+  itineraryItems    ItineraryItem[]
+
+  @@index([tripId])
+  @@index([cityId])
+}
+
+model ItineraryItem {
+  id                Int       @id @default(autoincrement())
+  itineraryDayId    Int
+  activityId        Int
+  startTime         String
+  endTime           String
+  notes             String?
+
+  itineraryDay      ItineraryDay @relation(fields: [itineraryDayId], references: [id])
+  activity          Activity     @relation(fields: [activityId], references: [id])
+
+  @@index([itineraryDayId])
+  @@index([activityId])
+}
+
+model Expense {
+  id                Int               @id @default(autoincrement())
+  tripId            Int
+  title             String
+  amount            Float
+  category          ExpenseCategory
+  expenseDate       DateTime
+  createdAt         DateTime          @default(now())
+
+  trip              Trip              @relation(fields: [tripId], references: [id])
+
+  @@index([tripId])
+  @@index([category])
+}
+
+model ChecklistItem {
+  id                Int                @id @default(autoincrement())
+  userId            Int
+  tripId            Int
+  itemName          String
+  category          ChecklistCategory
+  isPacked          Boolean            @default(false)
+
+  user              User               @relation(fields: [userId], references: [id])
+  trip              Trip               @relation(fields: [tripId], references: [id])
+
+  @@index([tripId])
+}
+
+model Note {
+  id                Int        @id @default(autoincrement())
+  userId            Int
+  tripId            Int
+  title             String
+  content           String
+  createdAt         DateTime   @default(now())
+
+  user              User       @relation(fields: [userId], references: [id])
+  trip              Trip       @relation(fields: [tripId], references: [id])
+
+  @@index([tripId])
+}
+
+model Invoice {
+  id                Int        @id @default(autoincrement())
+  tripId            Int
+  subtotal          Float
+  tax               Float
+  discount          Float
+  grandTotal        Float
+  generatedAt       DateTime   @default(now())
+
+  trip              Trip       @relation(fields: [tripId], references: [id])
+
+  @@index([tripId])
+}
+
+model CommunityPost {
+  id                Int        @id @default(autoincrement())
+  userId            Int
+  tripId            Int?
+  title             String
+  content           String
+  createdAt         DateTime   @default(now())
+
+  user              User       @relation(fields: [userId], references: [id])
+  trip              Trip?      @relation(fields: [tripId], references: [id])
+
+  @@index([userId])
+}
+
+model Stay {
+  id                 Int      @id @default(autoincrement())
+  cityId             Int
+  stayName           String
+  stayType           String
+  avgPricePerNight   Float
+  rating             Float
+  locationArea       String
+  budgetCategory     String
+
+  city               City     @relation(fields: [cityId], references: [id])
+
+  @@index([cityId])
+}
+
+model Transport {
+  id                       Int      @id @default(autoincrement())
+  fromCityId               Int
+  toCityId                 Int
+  transportType            String
+  estimatedCost            Float
+  estimatedDurationHours   Float
+  comfortLevel             String
+
+  fromCity                 City     @relation("FromCity", fields: [fromCityId], references: [id])
+  toCity                   City     @relation("ToCity", fields: [toCityId], references: [id])
+
+  @@index([fromCityId])
+  @@index([toCityId])
+}
+
+model FoodCost {
+  id                   Int      @id @default(autoincrement())
+  cityId               Int
+  budgetMealCost       Float
+  midrangeMealCost     Float
+  luxuryMealCost       Float
+  streetFoodScore      Float
+
+  city                 City     @relation(fields: [cityId], references: [id])
+
+  @@index([cityId])
+}

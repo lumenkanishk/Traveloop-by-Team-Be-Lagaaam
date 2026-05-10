@@ -1,0 +1,97 @@
+id,city_name,activity_name,category,description,estimated_cost,duration_hours,best_time,difficulty_level,family_friendly,indoor_or_outdoor,popularity_score,activity_image
+1,Mumbai,Marine Drive Walk,Sightseeing,Popular tourist activity in Mumbai enjoyed by travelers.,4000,4.0,Evening,Hard,TRUE,Outdoor,97,marine_drive_walk.jpg
+2,Mumbai,Gateway of India Tour,Sightseeing,Popular tourist activity in Mumbai enjoyed by travelers.,2000,1.5,Night,Easy,TRUE,Outdoor,89,gateway_of_india_tour.jpg
+3,Mumbai,Juhu Beach Visit,Beach,Popular tourist activity in Mumbai enjoyed by travelers.,4000,4.0,Afternoon,Medium,TRUE,Outdoor,79,juhu_beach_visit.jpg
+4,Mumbai,Street Food Crawl,Food,Popular tourist activity in Mumbai enjoyed by travelers.,4000,1.5,Morning,Hard,FALSE,Outdoor,86,street_food_crawl.jpg
+5,Mumbai,Colaba Shopping,Shopping,Popular tourist activity in Mumbai enjoyed by travelers.,1500,4.0,Night,Easy,FALSE,Indoor,78,colaba_shopping.jpg
+6,Mumbai,Bandra Nightlife,Nightlife,Popular tourist activity in Mumbai enjoyed by travelers.,800,2.0,Morning,Hard,TRUE,Indoor,78,bandra_nightlife.jpg
+7,Pune,Shaniwar Wada Tour,Sightseeing,Popular tourist activity in Pune enjoyed by travelers.,1200,6.0,Night,Hard,FALSE,Outdoor,78,shaniwar_wada_tour.jpg
+8,Pune,Cafe Hopping,Sightseeing,Popular tourist activity in Pune enjoyed by travelers.,2000,2.0,Night,Easy,TRUE,Outdoor,80,cafe_hopping.jpg
+9,Pune,Sinhagad Trek,Trekking,Popular tourist activity in Pune enjoyed by travelers.,2000,5.0,Afternoon,Medium,TRUE,Indoor,73,sinhagad_trek.jpg
+10,Pune,FC Road Shopping,Shopping,Popular tourist activity in Pune enjoyed by travelers.,2000,3.0,Morning,Medium,TRUE,Indoor,91,fc_road_shopping.jpg
+11,Pune,Aga Khan Palace Visit,Sightseeing,Popular tourist activity in Pune enjoyed by travelers.,500,4.0,Afternoon,Easy,FALSE,Outdoor,96,aga_khan_palace_visit.jpg
+12,Pune,Local Food Trail,Food,Popular tourist activity in Pune enjoyed by travelers.,500,1.5,Morning,Hard,FALSE,Outdoor,82,local_food_trail.jpg
+13,Lonavala,Tiger Point Visit,Sightseeing,Popular tourist activity in Lonavala enjoyed by travelers.,1200,1.5,Evening,Easy,TRUE,Indoor,86,tiger_point_visit.jpg
+14,Lonavala,Bhushi Dam Trip,Sightseeing,Popular tourist activity in Lonavala enjoyed by travelers.,1200,6.0,Evening,Easy,FALSE,Outdoor,87,bhushi_dam_trip.jpg
+15,Lonavala,Karla Caves Tour,Sightseeing,Popular tourist activity in Lonavala enjoyed by travelers.,1500,2.0,Morning,Hard,TRUE,Indoor,97,karla_caves_tour.jpg
+16,Lonavala,Lonavala Trekking,Trekking,Popular tourist activity in Lonavala enjoyed by travelers.,4000,3.0,Afternoon,Easy,FALSE,Indoor,87,lonavala_trekking.jpg
+17,Lonavala,Camping Experience,Relaxation,Popular tourist activity in Lonavala enjoyed by travelers.,3000,3.0,Morning,Medium,FALSE,Outdoor,95,camping_experience.jpg
+18,Lonavala,Photography Tour,Photography,Popular tourist activity in Lonavala enjoyed by travelers.,4000,5.0,Evening,Medium,FALSE,Indoor,78,photography_tour.jpg
+19,Nashik,Wine Tasting,Sightseeing,Popular tourist activity in Nashik enjoyed by travelers.,1500,2.0,Night,Hard,FALSE,Outdoor,96,wine_tasting.jpg
+20,Nashik,Trimbakeshwar Temple Visit,Spiritual,Popular tourist activity in Nashik enjoyed by travelers.,1200,1.5,Morning,Medium,TRUE,Indoor,84,trimbakeshwar_temple_visit.jpg
+21,Nashik,Godavari Ghat Walk,Sightseeing,Popular tourist activity in Nashik enjoyed by travelers.,500,3.0,Afternoon,Medium,TRUE,Indoor,82,godavari_ghat_walk.jpg
+22,Nashik,Sula Vineyard Tour,Sightseeing,Popular tourist activity in Nashik enjoyed by travelers.,3000,6.0,Evening,Hard,TRUE,Indoor,77,sula_vineyard_tour.jpg
+23,Nashik,Pandavleni Caves,Sightseeing,Popular tourist activity in Nashik enjoyed by travelers.,4000,4.0,Afternoon,Hard,FALSE,Indoor,94,pandavleni_caves.jpg
+24,Nashik,Street Food Tour,Food,Popular tourist activity in Nashik enjoyed by travelers.,4000,6.0,Afternoon,Medium,FALSE,Outdoor,86,street_food_tour.jpg
+25,Bengaluru,Cubbon Park Walk,Sightseeing,Popular tourist activity in Bengaluru enjoyed by travelers.,1200,5.0,Evening,Hard,TRUE,Outdoor,96,cubbon_park_walk.jpg
+26,Bengaluru,Pub Hopping,Nightlife,Popular tourist activity in Bengaluru enjoyed by travelers.,2500,2.0,Night,Medium,FALSE,Indoor,87,pub_hopping.jpg
+27,Bengaluru,Lalbagh Tour,Sightseeing,Popular tourist activity in Bengaluru enjoyed by travelers.,1500,2.0,Evening,Easy,FALSE,Indoor,74,lalbagh_tour.jpg
+28,Bengaluru,Commercial Street Shopping,Shopping,Popular tourist activity in Bengaluru enjoyed by travelers.,2500,1.5,Afternoon,Medium,TRUE,Outdoor,87,commercial_street_shopping.jpg
+29,Bengaluru,Wonderla Visit,Sightseeing,Popular tourist activity in Bengaluru enjoyed by travelers.,2000,5.0,Evening,Easy,TRUE,Indoor,95,wonderla_visit.jpg
+30,Bengaluru,Bangalore Palace Tour,Sightseeing,Popular tourist activity in Bengaluru enjoyed by travelers.,1500,5.0,Evening,Easy,FALSE,Indoor,71,bangalore_palace_tour.jpg
+31,Mysuru,Mysore Palace Tour,Sightseeing,Popular tourist activity in Mysuru enjoyed by travelers.,2000,4.0,Evening,Easy,FALSE,Outdoor,95,mysore_palace_tour.jpg
+32,Mysuru,Brindavan Gardens Visit,Sightseeing,Popular tourist activity in Mysuru enjoyed by travelers.,4000,3.0,Afternoon,Easy,FALSE,Indoor,74,brindavan_gardens_visit.jpg
+33,Mysuru,Chamundi Hills Trip,Sightseeing,Popular tourist activity in Mysuru enjoyed by travelers.,2000,6.0,Morning,Hard,TRUE,Indoor,95,chamundi_hills_trip.jpg
+34,Mysuru,Silk Shopping,Shopping,Popular tourist activity in Mysuru enjoyed by travelers.,1200,6.0,Afternoon,Medium,TRUE,Outdoor,76,silk_shopping.jpg
+35,Mysuru,Zoo Visit,Sightseeing,Popular tourist activity in Mysuru enjoyed by travelers.,2000,3.0,Morning,Hard,FALSE,Indoor,86,zoo_visit.jpg
+36,Mysuru,Cultural Show,Sightseeing,Popular tourist activity in Mysuru enjoyed by travelers.,4000,6.0,Night,Easy,TRUE,Indoor,89,cultural_show.jpg
+37,Coorg,Coffee Plantation Tour,Sightseeing,Popular tourist activity in Coorg enjoyed by travelers.,800,2.0,Morning,Hard,FALSE,Indoor,71,coffee_plantation_tour.jpg
+38,Coorg,Abbey Falls Visit,Sightseeing,Popular tourist activity in Coorg enjoyed by travelers.,4000,3.0,Afternoon,Medium,TRUE,Outdoor,71,abbey_falls_visit.jpg
+39,Coorg,River Rafting,Adventure,Popular tourist activity in Coorg enjoyed by travelers.,1500,3.0,Morning,Easy,TRUE,Indoor,95,river_rafting.jpg
+40,Coorg,Nature Photography,Photography,Popular tourist activity in Coorg enjoyed by travelers.,1200,3.0,Afternoon,Easy,TRUE,Outdoor,73,nature_photography.jpg
+41,Coorg,Camping,Relaxation,Popular tourist activity in Coorg enjoyed by travelers.,3000,2.0,Evening,Medium,TRUE,Outdoor,80,camping.jpg
+42,Coorg,Trekking,Trekking,Popular tourist activity in Coorg enjoyed by travelers.,2000,5.0,Morning,Hard,FALSE,Outdoor,93,trekking.jpg
+43,Hampi,Stone Chariot Visit,Sightseeing,Popular tourist activity in Hampi enjoyed by travelers.,2000,2.0,Night,Hard,TRUE,Outdoor,93,stone_chariot_visit.jpg
+44,Hampi,Temple Exploration,Spiritual,Popular tourist activity in Hampi enjoyed by travelers.,3000,2.0,Morning,Easy,FALSE,Outdoor,74,temple_exploration.jpg
+45,Hampi,Coracle Ride,Adventure,Popular tourist activity in Hampi enjoyed by travelers.,1200,6.0,Afternoon,Easy,TRUE,Indoor,84,coracle_ride.jpg
+46,Hampi,Sunrise Trek,Trekking,Popular tourist activity in Hampi enjoyed by travelers.,500,6.0,Afternoon,Hard,TRUE,Outdoor,99,sunrise_trek.jpg
+47,Hampi,Photography Tour,Photography,Popular tourist activity in Hampi enjoyed by travelers.,2500,5.0,Morning,Easy,FALSE,Outdoor,98,photography_tour.jpg
+48,Hampi,Heritage Walk,Sightseeing,Popular tourist activity in Hampi enjoyed by travelers.,500,5.0,Morning,Medium,FALSE,Indoor,79,heritage_walk.jpg
+49,Panaji,Casino Cruise,Sightseeing,Popular tourist activity in Panaji enjoyed by travelers.,1500,1.5,Afternoon,Easy,FALSE,Outdoor,75,casino_cruise.jpg
+50,Panaji,Latin Quarter Walk,Sightseeing,Popular tourist activity in Panaji enjoyed by travelers.,2000,5.0,Night,Hard,FALSE,Outdoor,94,latin_quarter_walk.jpg
+51,Panaji,Miramar Beach Visit,Beach,Popular tourist activity in Panaji enjoyed by travelers.,2000,3.0,Afternoon,Hard,TRUE,Outdoor,97,miramar_beach_visit.jpg
+52,Panaji,Goan Food Tour,Food,Popular tourist activity in Panaji enjoyed by travelers.,800,2.0,Afternoon,Easy,FALSE,Indoor,88,goan_food_tour.jpg
+53,Panaji,Night Market Shopping,Shopping,Popular tourist activity in Panaji enjoyed by travelers.,4000,3.0,Evening,Hard,TRUE,Indoor,94,night_market_shopping.jpg
+54,Panaji,Church Tour,Spiritual,Popular tourist activity in Panaji enjoyed by travelers.,3000,3.0,Night,Easy,TRUE,Outdoor,90,church_tour.jpg
+55,Calangute,Parasailing,Adventure,Popular tourist activity in Calangute enjoyed by travelers.,3000,3.0,Night,Medium,TRUE,Indoor,86,parasailing.jpg
+56,Calangute,Beach Relaxation,Beach,Popular tourist activity in Calangute enjoyed by travelers.,2500,2.0,Morning,Easy,FALSE,Outdoor,89,beach_relaxation.jpg
+57,Calangute,Nightclub Visit,Nightlife,Popular tourist activity in Calangute enjoyed by travelers.,4000,2.0,Evening,Hard,FALSE,Outdoor,92,nightclub_visit.jpg
+58,Calangute,Jet Ski Ride,Adventure,Popular tourist activity in Calangute enjoyed by travelers.,2500,4.0,Morning,Medium,TRUE,Outdoor,79,jet_ski_ride.jpg
+59,Calangute,Seafood Dining,Food,Popular tourist activity in Calangute enjoyed by travelers.,3000,2.0,Morning,Medium,TRUE,Outdoor,77,seafood_dining.jpg
+60,Calangute,Shopping Bazaar,Shopping,Popular tourist activity in Calangute enjoyed by travelers.,2500,4.0,Afternoon,Medium,FALSE,Indoor,95,shopping_bazaar.jpg
+61,Vagator,Cliff Photography,Photography,Popular tourist activity in Vagator enjoyed by travelers.,2500,6.0,Evening,Medium,TRUE,Indoor,73,cliff_photography.jpg
+62,Vagator,Beach Party,Beach,Popular tourist activity in Vagator enjoyed by travelers.,2500,6.0,Evening,Easy,FALSE,Outdoor,99,beach_party.jpg
+63,Vagator,Sunset Watching,Sightseeing,Popular tourist activity in Vagator enjoyed by travelers.,1500,6.0,Evening,Easy,TRUE,Outdoor,76,sunset_watching.jpg
+64,Vagator,Cafe Exploration,Sightseeing,Popular tourist activity in Vagator enjoyed by travelers.,800,5.0,Afternoon,Hard,TRUE,Indoor,75,cafe_exploration.jpg
+65,Vagator,Chapora Fort Visit,Sightseeing,Popular tourist activity in Vagator enjoyed by travelers.,1500,6.0,Afternoon,Medium,FALSE,Indoor,94,chapora_fort_visit.jpg
+66,Vagator,Yoga Retreat,Relaxation,Popular tourist activity in Vagator enjoyed by travelers.,4000,4.0,Night,Easy,FALSE,Outdoor,85,yoga_retreat.jpg
+67,Palolem,Kayaking,Sightseeing,Popular tourist activity in Palolem enjoyed by travelers.,4000,2.0,Night,Easy,TRUE,Outdoor,98,kayaking.jpg
+68,Palolem,Silent Disco,Nightlife,Popular tourist activity in Palolem enjoyed by travelers.,3000,2.0,Morning,Easy,FALSE,Indoor,93,silent_disco.jpg
+69,Palolem,Beach Relaxation,Beach,Popular tourist activity in Palolem enjoyed by travelers.,2500,2.0,Evening,Easy,FALSE,Indoor,97,beach_relaxation.jpg
+70,Palolem,Boat Ride,Adventure,Popular tourist activity in Palolem enjoyed by travelers.,4000,4.0,Afternoon,Medium,TRUE,Indoor,93,boat_ride.jpg
+71,Palolem,Seafood Trail,Sightseeing,Popular tourist activity in Palolem enjoyed by travelers.,1500,2.0,Afternoon,Easy,TRUE,Outdoor,96,seafood_trail.jpg
+72,Palolem,Photography Walk,Photography,Popular tourist activity in Palolem enjoyed by travelers.,1500,3.0,Afternoon,Medium,FALSE,Outdoor,74,photography_walk.jpg
+73,Jaipur,Amber Fort Tour,Sightseeing,Popular tourist activity in Jaipur enjoyed by travelers.,1500,6.0,Morning,Easy,TRUE,Indoor,79,amber_fort_tour.jpg
+74,Jaipur,Hawa Mahal Visit,Sightseeing,Popular tourist activity in Jaipur enjoyed by travelers.,500,4.0,Night,Easy,FALSE,Indoor,81,hawa_mahal_visit.jpg
+75,Jaipur,Rajasthani Food Tour,Food,Popular tourist activity in Jaipur enjoyed by travelers.,500,3.0,Morning,Medium,TRUE,Indoor,73,rajasthani_food_tour.jpg
+76,Jaipur,Johari Bazaar Shopping,Shopping,Popular tourist activity in Jaipur enjoyed by travelers.,500,4.0,Night,Hard,FALSE,Outdoor,81,johari_bazaar_shopping.jpg
+77,Jaipur,Cultural Dance Show,Sightseeing,Popular tourist activity in Jaipur enjoyed by travelers.,1200,4.0,Night,Easy,FALSE,Indoor,78,cultural_dance_show.jpg
+78,Jaipur,Hot Air Balloon Ride,Adventure,Popular tourist activity in Jaipur enjoyed by travelers.,2500,6.0,Morning,Medium,FALSE,Indoor,76,hot_air_balloon_ride.jpg
+79,Udaipur,Lake Pichola Boat Ride,Adventure,Popular tourist activity in Udaipur enjoyed by travelers.,4000,4.0,Morning,Hard,FALSE,Outdoor,93,lake_pichola_boat_ride.jpg
+80,Udaipur,City Palace Tour,Sightseeing,Popular tourist activity in Udaipur enjoyed by travelers.,3000,2.0,Afternoon,Easy,TRUE,Outdoor,70,city_palace_tour.jpg
+81,Udaipur,Photography Walk,Photography,Popular tourist activity in Udaipur enjoyed by travelers.,3000,3.0,Afternoon,Medium,FALSE,Indoor,94,photography_walk.jpg
+82,Udaipur,Rooftop Dining,Food,Popular tourist activity in Udaipur enjoyed by travelers.,800,1.5,Evening,Easy,FALSE,Outdoor,99,rooftop_dining.jpg
+83,Udaipur,Vintage Car Museum,Sightseeing,Popular tourist activity in Udaipur enjoyed by travelers.,500,2.0,Morning,Hard,FALSE,Outdoor,81,vintage_car_museum.jpg
+84,Udaipur,Shopping Tour,Shopping,Popular tourist activity in Udaipur enjoyed by travelers.,500,6.0,Afternoon,Easy,TRUE,Outdoor,92,shopping_tour.jpg
+85,Jodhpur,Mehrangarh Fort Tour,Sightseeing,Popular tourist activity in Jodhpur enjoyed by travelers.,3000,3.0,Morning,Hard,FALSE,Outdoor,98,mehrangarh_fort_tour.jpg
+86,Jodhpur,Blue City Walk,Sightseeing,Popular tourist activity in Jodhpur enjoyed by travelers.,3000,6.0,Night,Easy,FALSE,Outdoor,77,blue_city_walk.jpg
+87,Jodhpur,Street Food Tour,Food,Popular tourist activity in Jodhpur enjoyed by travelers.,1200,4.0,Night,Medium,TRUE,Outdoor,96,street_food_tour.jpg
+88,Jodhpur,Camel Safari,Adventure,Popular tourist activity in Jodhpur enjoyed by travelers.,500,2.0,Night,Hard,TRUE,Indoor,97,camel_safari.jpg
+89,Jodhpur,Clock Tower Shopping,Shopping,Popular tourist activity in Jodhpur enjoyed by travelers.,4000,1.5,Night,Hard,TRUE,Outdoor,83,clock_tower_shopping.jpg
+90,Jodhpur,Zipline Adventure,Sightseeing,Popular tourist activity in Jodhpur enjoyed by travelers.,2500,2.0,Night,Easy,FALSE,Indoor,73,zipline_adventure.jpg
+91,Jaisalmer,Desert Safari,Adventure,Popular tourist activity in Jaisalmer enjoyed by travelers.,2500,5.0,Afternoon,Easy,FALSE,Outdoor,98,desert_safari.jpg
+92,Jaisalmer,Camel Ride,Adventure,Popular tourist activity in Jaisalmer enjoyed by travelers.,1500,3.0,Evening,Hard,FALSE,Indoor,85,camel_ride.jpg
+93,Jaisalmer,Fort Exploration,Sightseeing,Popular tourist activity in Jaisalmer enjoyed by travelers.,800,6.0,Evening,Hard,FALSE,Indoor,80,fort_exploration.jpg
+94,Jaisalmer,Camping in Dunes,Relaxation,Popular tourist activity in Jaisalmer enjoyed by travelers.,4000,3.0,Morning,Easy,FALSE,Indoor,74,camping_in_dunes.jpg
+95,Jaisalmer,Cultural Folk Show,Sightseeing,Popular tourist activity in Jaisalmer enjoyed by travelers.,800,6.0,Night,Medium,FALSE,Outdoor,94,cultural_folk_show.jpg
+96,Jaisalmer,Photography Tour,Photography,Popular tourist activity in Jaisalmer enjoyed by travelers.,1200,3.0,Afternoon,Medium,FALSE,Indoor,80,photography_tour.jpg

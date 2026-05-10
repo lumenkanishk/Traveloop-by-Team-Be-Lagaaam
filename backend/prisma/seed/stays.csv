@@ -1,0 +1,81 @@
+id,city_name,stay_name,stay_type,avg_price_per_night,rating,location_area,budget_category
+1,Mumbai,Mumbai Vista,Resort,13543,4.0,Bandra,Luxury
+2,Mumbai,Mumbai Retreat,Midrange Hotel,4198,4.1,Juhu,Midrange
+3,Mumbai,Mumbai Grand,Luxury Hotel,11717,3.8,Juhu,Luxury
+4,Mumbai,Mumbai Vista,Homestay,4273,4.2,Andheri,Midrange
+5,Mumbai,Mumbai Retreat,Budget Hotel,2232,4.4,Andheri,Budget
+6,Pune,Pune Vista,Midrange Hotel,4198,4.6,Koregaon Park,Midrange
+7,Pune,Pune Vista,Luxury Hotel,11717,3.6,Koregaon Park,Luxury
+8,Pune,Pune Vista,Luxury Hotel,11717,4.0,Hinjewadi,Luxury
+9,Pune,Pune Vista,Luxury Hotel,11717,3.7,Hinjewadi,Luxury
+10,Pune,Pune Inn,Resort,13543,4.8,FC Road,Luxury
+11,Lonavala,Lonavala Stay,Homestay,4273,4.0,Old Mumbai Road,Midrange
+12,Lonavala,Lonavala Residency,Luxury Hotel,11717,4.6,Rye Wood,Luxury
+13,Lonavala,Lonavala Vista,Budget Hotel,2232,4.5,Old Mumbai Road,Budget
+14,Lonavala,Lonavala Residency,Midrange Hotel,4198,3.5,Bhushi,Midrange
+15,Lonavala,Lonavala Inn,Luxury Hotel,11717,4.1,Tungarli,Luxury
+16,Nashik,Nashik Vista,Resort,13543,4.2,Sula Area,Luxury
+17,Nashik,Nashik Inn,Homestay,4273,4.4,Sula Area,Midrange
+18,Nashik,Nashik Retreat,Resort,13543,3.6,Sula Area,Luxury
+19,Nashik,Nashik Residency,Luxury Hotel,11717,4.4,College Road,Luxury
+20,Nashik,Nashik Retreat,Resort,13543,4.4,Gangapur Road,Luxury
+21,Bengaluru,Bengaluru Suites,Homestay,4273,4.1,Koramangala,Midrange
+22,Bengaluru,Bengaluru Residency,Budget Hotel,2232,4.0,Koramangala,Budget
+23,Bengaluru,Bengaluru Suites,Resort,13543,5.0,Whitefield,Luxury
+24,Bengaluru,Bengaluru Retreat,Resort,13543,4.4,Whitefield,Luxury
+25,Bengaluru,Bengaluru Retreat,Luxury Hotel,11717,3.5,Koramangala,Luxury
+26,Mysuru,Mysuru Grand,Hostel,1188,3.9,Nazarbad,Budget
+27,Mysuru,Mysuru Suites,Resort,13543,3.8,Gokulam,Luxury
+28,Mysuru,Mysuru Retreat,Resort,13543,4.1,Gokulam,Luxury
+29,Mysuru,Mysuru Inn,Resort,13543,4.6,VV Mohalla,Luxury
+30,Mysuru,Mysuru Residency,Resort,13543,4.0,Chamundi Hills,Luxury
+31,Coorg,Coorg Inn,Midrange Hotel,4198,5.0,Virajpet,Midrange
+32,Coorg,Coorg Residency,Midrange Hotel,4198,4.2,Kushalnagar,Midrange
+33,Coorg,Coorg Vista,Resort,13543,4.7,Somwarpet,Luxury
+34,Coorg,Coorg Suites,Budget Hotel,2232,4.1,Madikeri,Budget
+35,Coorg,Coorg Grand,Budget Hotel,2232,4.7,Somwarpet,Budget
+36,Hampi,Hampi Grand,Hostel,1188,4.0,Hampi Bazaar,Budget
+37,Hampi,Hampi Residency,Midrange Hotel,4198,3.8,Hospet,Midrange
+38,Hampi,Hampi Vista,Homestay,4273,3.6,Anegundi,Midrange
+39,Hampi,Hampi Residency,Homestay,4273,3.8,Hospet,Midrange
+40,Hampi,Hampi Grand,Hostel,1188,4.3,Hospet,Budget
+41,Panaji,Panaji Suites,Luxury Hotel,11717,4.8,Campal,Luxury
+42,Panaji,Panaji Inn,Budget Hotel,2232,4.2,Fontainhas,Budget
+43,Panaji,Panaji Suites,Hostel,1188,3.7,Dona Paula,Budget
+44,Panaji,Panaji Residency,Hostel,1188,3.9,Campal,Budget
+45,Panaji,Panaji Suites,Midrange Hotel,4198,4.2,Miramar,Midrange
+46,Calangute,Calangute Inn,Luxury Hotel,11717,4.3,Baga Road,Luxury
+47,Calangute,Calangute Stay,Hostel,1188,3.9,Calangute Beach Road,Budget
+48,Calangute,Calangute Suites,Midrange Hotel,4198,3.9,Holiday Street,Midrange
+49,Calangute,Calangute Retreat,Homestay,4273,4.0,Baga Road,Midrange
+50,Calangute,Calangute Grand,Budget Hotel,2232,4.6,Candolim,Budget
+51,Vagator,Vagator Vista,Hostel,1188,4.1,Anjuna Road,Budget
+52,Vagator,Vagator Inn,Luxury Hotel,11717,4.4,Ozran Beach,Luxury
+53,Vagator,Vagator Grand,Homestay,4273,4.6,Anjuna Road,Midrange
+54,Vagator,Vagator Retreat,Midrange Hotel,4198,4.3,Little Vagator,Midrange
+55,Vagator,Vagator Stay,Hostel,1188,3.5,Anjuna Road,Budget
+56,Palolem,Palolem Retreat,Hostel,1188,3.8,Canacona,Budget
+57,Palolem,Palolem Grand,Hostel,1188,3.9,Palolem Beach,Budget
+58,Palolem,Palolem Grand,Midrange Hotel,4198,4.8,Canacona,Midrange
+59,Palolem,Palolem Grand,Luxury Hotel,11717,4.6,Patnem,Luxury
+60,Palolem,Palolem Inn,Resort,13543,4.4,Palolem Beach,Luxury
+61,Jaipur,Jaipur Vista,Midrange Hotel,4198,4.2,Malviya Nagar,Midrange
+62,Jaipur,Jaipur Residency,Luxury Hotel,11717,4.3,Malviya Nagar,Luxury
+63,Jaipur,Jaipur Vista,Resort,13543,4.2,MI Road,Luxury
+64,Jaipur,Jaipur Residency,Hostel,1188,4.6,Malviya Nagar,Budget
+65,Jaipur,Jaipur Residency,Budget Hotel,2232,4.3,MI Road,Budget
+66,Udaipur,Udaipur Vista,Hostel,1188,3.7,Hathipole,Budget
+67,Udaipur,Udaipur Suites,Midrange Hotel,4198,4.1,Hathipole,Midrange
+68,Udaipur,Udaipur Stay,Budget Hotel,2232,3.9,Ambamata,Budget
+69,Udaipur,Udaipur Stay,Luxury Hotel,11717,4.5,Ambamata,Luxury
+70,Udaipur,Udaipur Stay,Homestay,4273,4.9,Fateh Sagar,Midrange
+71,Jodhpur,Jodhpur Inn,Budget Hotel,2232,4.4,Clock Tower,Budget
+72,Jodhpur,Jodhpur Inn,Budget Hotel,2232,4.3,Ratanada,Budget
+73,Jodhpur,Jodhpur Inn,Midrange Hotel,4198,4.8,Paota,Midrange
+74,Jodhpur,Jodhpur Residency,Budget Hotel,2232,4.8,Sardarpura,Budget
+75,Jodhpur,Jodhpur Stay,Budget Hotel,2232,4.5,Paota,Budget
+76,Jaisalmer,Jaisalmer Residency,Budget Hotel,2232,3.6,Patwon Ki Haveli,Budget
+77,Jaisalmer,Jaisalmer Vista,Midrange Hotel,4198,4.0,Patwon Ki Haveli,Midrange
+78,Jaisalmer,Jaisalmer Suites,Budget Hotel,2232,4.9,Sam Sand Dunes,Budget
+79,Jaisalmer,Jaisalmer Suites,Homestay,4273,3.6,Sam Sand Dunes,Midrange
+80,Jaisalmer,Jaisalmer Grand,Midrange Hotel,4198,4.5,Fort Road,Midrange
