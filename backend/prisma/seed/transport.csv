@@ -1,0 +1,50 @@
+id,from_city,to_city,transport_type,estimated_cost,estimated_duration_hours,comfort_level
+1,Mumbai,Pune,Train,500,3.5,Budget
+2,Mumbai,Pune,Bus,800,4.5,Standard
+3,Mumbai,Pune,Taxi,4500,3.5,Premium
+4,Mumbai,Lonavala,Train,300,2.5,Budget
+5,Mumbai,Lonavala,Bus,600,3.0,Standard
+6,Mumbai,Lonavala,Taxi,3500,2.5,Premium
+7,Mumbai,Nashik,Bus,900,5.0,Standard
+8,Mumbai,Nashik,Train,450,4.5,Budget
+9,Mumbai,Nashik,Taxi,5500,4.5,Premium
+10,Pune,Lonavala,Train,250,2.0,Budget
+11,Pune,Lonavala,Taxi,2500,2.0,Premium
+12,Pune,Lonavala,Bus,500,2.5,Standard
+13,Pune,Nashik,Bus,700,5.0,Standard
+14,Pune,Nashik,Taxi,4000,4.5,Premium
+15,Bengaluru,Mysuru,Train,350,3.0,Budget
+16,Bengaluru,Mysuru,Bus,700,3.5,Standard
+17,Bengaluru,Mysuru,Taxi,4500,3.0,Premium
+18,Bengaluru,Coorg,Bus,900,6.0,Standard
+19,Bengaluru,Coorg,Taxi,6500,5.5,Premium
+20,Bengaluru,Coorg,Bike Rental,1800,6.5,Budget
+21,Bengaluru,Hampi,Train,700,8.0,Budget
+22,Bengaluru,Hampi,Bus,1200,7.5,Standard
+23,Bengaluru,Hampi,Flight,4500,1.5,Premium
+24,Mysuru,Coorg,Bus,500,3.5,Standard
+25,Mysuru,Coorg,Taxi,3000,3.0,Premium
+26,Panaji,Calangute,Auto Rickshaw,300,1.0,Budget
+27,Panaji,Calangute,Taxi,1200,0.8,Premium
+28,Panaji,Calangute,Bike Rental,700,1.0,Standard
+29,Panaji,Vagator,Taxi,1500,1.2,Premium
+30,Panaji,Vagator,Bike Rental,800,1.5,Standard
+31,Panaji,Vagator,Auto Rickshaw,400,1.5,Budget
+32,Panaji,Palolem,Bus,350,2.5,Budget
+33,Panaji,Palolem,Taxi,2500,2.0,Premium
+34,Panaji,Palolem,Bike Rental,1000,3.0,Standard
+35,Calangute,Vagator,Bike Rental,500,0.8,Standard
+36,Calangute,Vagator,Taxi,900,0.6,Premium
+37,Calangute,Vagator,Auto Rickshaw,250,1.0,Budget
+38,Jaipur,Udaipur,Train,650,7.0,Budget
+39,Jaipur,Udaipur,Bus,1200,8.0,Standard
+40,Jaipur,Udaipur,Flight,4000,1.2,Premium
+41,Jaipur,Jodhpur,Train,550,6.0,Budget
+42,Jaipur,Jodhpur,Bus,1000,6.5,Standard
+43,Jaipur,Jodhpur,Taxi,7000,5.5,Premium
+44,Jodhpur,Jaisalmer,Train,450,5.0,Budget
+45,Jodhpur,Jaisalmer,Bus,900,5.5,Standard
+46,Jodhpur,Jaisalmer,Taxi,5000,4.5,Premium
+47,Udaipur,Jodhpur,Bus,800,5.0,Standard
+48,Udaipur,Jodhpur,Taxi,4500,4.5,Premium
+49,Udaipur,Jodhpur,Train,400,5.5,Budget

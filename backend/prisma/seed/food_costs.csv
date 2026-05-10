@@ -1,0 +1,17 @@
+id,city_name,budget_meal_cost,midrange_meal_cost,luxury_meal_cost,street_food_score
+1,Mumbai,150,500,2500,10
+2,Pune,120,450,2200,9
+3,Lonavala,130,500,2400,8
+4,Nashik,100,400,2000,8
+5,Bengaluru,140,550,2600,9
+6,Mysuru,110,420,2100,8
+7,Coorg,150,600,2800,7
+8,Hampi,120,450,1800,7
+9,Panaji,180,700,3200,9
+10,Calangute,200,750,3500,9
+11,Vagator,220,800,3800,8
+12,Palolem,180,700,3400,8
+13,Jaipur,130,500,2500,9
+14,Udaipur,150,650,3200,8
+15,Jodhpur,120,480,2400,9
+16,Jaisalmer,140,550,2600,8
